@@ -1,0 +1,19 @@
+﻿Сборка начата 9/23/2015 3:05:11 AM.
+     1>Проект "C:\Users\El\Documents\Visual Studio 2013\Projects\C_client\C_client\C_client.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Client_Network_Functions.cpp
+         Client_Network_Functions.cpp
+     1>c:\users\el\documents\visual studio 2013\projects\c_client\c_client\client_network_functions.cpp(40): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850): см. объявление "inet_addr"
+     1>c:\users\el\documents\visual studio 2013\projects\c_client\c_client\client_network_functions.cpp(84): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112): см. объявление "strcpy"
+     1>c:\users\el\documents\visual studio 2013\projects\c_client\c_client\client_network_functions.cpp(85): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(131): см. объявление "getch"
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\El\Documents\Visual Studio 2013\Projects\C_client\Debug\C_client.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\El\Documents\Visual Studio 2013\Projects\C_client\Debug\C_client.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\El\Documents\Visual Studio 2013\Projects\C_client\Debug\C_client.lib" /MACHINE:X86 Debug\Client_Network_Functions.obj
+         C_client.vcxproj -> C:\Users\El\Documents\Visual Studio 2013\Projects\C_client\Debug\C_client.exe
+     1>Сборка проекта "C:\Users\El\Documents\Visual Studio 2013\Projects\C_client\C_client\C_client.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.90
